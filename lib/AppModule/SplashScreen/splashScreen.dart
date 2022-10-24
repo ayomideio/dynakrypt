@@ -1,10 +1,8 @@
 import 'dart:async';
+
+import 'package:dynakrypt/AppModule/public/heading_text.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:dynakrypt/AppModule/auth_screen/userInformation.dart';
-import 'package:dynakrypt/AppModule/public/heading_text.dart';
-import 'package:dynakrypt/controllers/authController.dart';
-import 'package:sleek_circular_slider/sleek_circular_slider.dart';
 
 import '../WelcomeScreen/welcomeScreen.dart';
 
@@ -54,8 +52,6 @@ class _SplashScreenState extends State<SplashScreen> {
             myText(
                 text: 'A Mathematical Modeling Inc. (MMI) App \n DynaKrypt',
                 color: Color.fromRGBO(250, 160, 0, 1),
-
-
                 size: 16),
             Expanded(child: Container()),
             SizedBox(
